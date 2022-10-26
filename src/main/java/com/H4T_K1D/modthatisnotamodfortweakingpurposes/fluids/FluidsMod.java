@@ -20,9 +20,9 @@ public class FluidsMod {
     public static final ResourceLocation ANDESITE_STILL = new ResourceLocation("block/fluids/molten_andesite_still");
     public static final ResourceLocation ANDESITE_FLOWING = new ResourceLocation("block/fluids/molten_andesite_flow");
     public static final ResourceLocation ANDESITE_ALLOY_STILL = new ResourceLocation(
-            "block/fluids/molten_andesite_alloy still");
+                    "block/fluids/molten_andesite_alloy_still");
     public static final ResourceLocation ANDESITE_ALLOY_FLOWING = new ResourceLocation(
-            "block/fluids/molten_andesite_alloy_flow");
+                    "block/fluids/molten_andesite_alloy_flow");
 
     public static final DeferredRegister<Fluid> FLUIDS = DeferredRegister.create(ForgeRegistries.FLUIDS,
             "modthatisnotamodfortweakingpurposes");
