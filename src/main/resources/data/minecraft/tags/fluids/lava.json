@@ -1,0 +1,9 @@
+{
+    "replace": "false",
+    "values": [
+        "modthatisnotamodfortweakingpurposes:molten_andesite_alloy_flowing",
+        "modthatisnotamodfortweakingpurposes:molten_andesite_alloy",
+        "modthatisnotamodfortweakingpurposes:molten_andesite_flowing",
+        "modthatisnotamodfortweakingpurposes:molten_andesite"
+    ]
+}

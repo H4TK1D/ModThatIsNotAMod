@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "item": "create:andesite_alloy"
+    },
+    "result": {
+        "fluid": "modthatisnotamodfortweakingpurposes:molten_andesite_alloy",
+        "amount": 432
+    },
+    "temperature": 750,
+    "time": 50
+}

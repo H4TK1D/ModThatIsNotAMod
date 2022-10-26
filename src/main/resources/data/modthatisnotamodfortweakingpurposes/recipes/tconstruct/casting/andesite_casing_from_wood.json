@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_basin",
+    "cast":{
+        "tag": "forge:stripped_wood"
+    },
+    "cast_consumed": true,
+    "fluid": {
+        "name": "modthatisnotamodfortweakingpurposes:molten_andesite_alloy",
+        "amount": 432
+    },
+    "result": "create:andesite_casing",
+    "cooling_time": 150
+}

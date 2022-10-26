@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "modthatisnotamodfortweakingpurposes:molten_andesite",
+      "amount": 288
+    },
+    {
+      "name": "tconstruct:molten_iron",
+      "amount": 20
+    }
+  ],
+  "result": {
+    "fluid": "modthatisnotamodfortweakingpurposes:molten_andesite_alloy",
+    "amount": 432
+  },
+  "temperature": 750
+}

@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "item": "minecraft:andesite"
+    },
+    "result": {
+        "fluid": "modthatisnotamodfortweakingpurposes:molten_andesite",
+        "amount": 144
+    },
+    "temperature": 500,
+    "time": 50
+}

@@ -1,0 +1,9 @@
+{
+    "type": "tconstruct:casting_table",
+    "fluid": {
+        "name": "modthatisnotamodfortweakingpurposes:molten_andesite_alloy",
+        "amount": 432
+    },
+    "result": "create:andesite_alloy",
+    "cooling_time": 100
+}
