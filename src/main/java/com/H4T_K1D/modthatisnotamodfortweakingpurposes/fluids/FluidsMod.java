@@ -17,8 +17,10 @@ import com.H4T_K1D.modthatisnotamodfortweakingpurposes.blocks.blockMod;
 import com.H4T_K1D.modthatisnotamodfortweakingpurposes.items.buckets;
 
 public class FluidsMod {
-    public static final ResourceLocation ANDESITE_STILL = new ResourceLocation("block/fluids/molten_andesite_still");
-    public static final ResourceLocation ANDESITE_FLOWING = new ResourceLocation("block/fluids/molten_andesite_flow");
+        public static final ResourceLocation ANDESITE_STILL = new ResourceLocation(
+                        "modthatisnotamodfortweakingpurposes:block/fluids/molten_andesite_alloy_still");
+        public static final ResourceLocation ANDESITE_FLOWING = new ResourceLocation(
+                        "modthatisnotamodfortweakingpurposes:block/fluids/molten_andesite_alloy_still");
     public static final ResourceLocation ANDESITE_ALLOY_STILL = new ResourceLocation(
                     "block/fluids/molten_andesite_alloy_still");
     public static final ResourceLocation ANDESITE_ALLOY_FLOWING = new ResourceLocation(
