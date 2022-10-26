@@ -31,7 +31,7 @@ public class FluidsMod {
             () -> new ForgeFlowingFluid.Source(FluidsMod.AndesiteProperties));
 
     public static final RegistryObject<FlowingFluid> ANDESITE_FLUID_FLOWING = FLUIDS.register("molten_andesite_flowing",
-            () -> new ForgeFlowingFluid.Source(FluidsMod.AndesiteProperties));
+                    () -> new ForgeFlowingFluid.Flowing(FluidsMod.AndesiteProperties));
 
     public static final RegistryObject<LiquidBlock> MOLTEN_ANDESITE_BLOCK = blockMod.BLOCKS.register(
             "molten_andesite",
@@ -51,7 +51,7 @@ public class FluidsMod {
 
     public static final RegistryObject<FlowingFluid> ANDESITE_ALLOY_FLUID_FLOWING = FLUIDS.register(
             "molten_andesite_alloy_flowing",
-            () -> new ForgeFlowingFluid.Source(FluidsMod.AndesiteAlloyProperties));
+                    () -> new ForgeFlowingFluid.Flowing(FluidsMod.AndesiteAlloyProperties));
 
     public static final RegistryObject<LiquidBlock> MOLTEN_ANDESITE_ALLOY_BLOCK = blockMod.BLOCKS.register(
             "molten_andesite_alloy",
