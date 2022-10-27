@@ -18,13 +18,13 @@ import com.H4T_K1D.modthatisnotamodfortweakingpurposes.items.buckets;
 
 public class FluidsMod {
         public static final ResourceLocation ANDESITE_STILL = new ResourceLocation(
-                        "modthatisnotamodfortweakingpurposes:block/fluids/molten_andesite_alloy_still");
+                        "modthatisnotamodfortweakingpurposes:block/fluids/molten_andesite_still");
         public static final ResourceLocation ANDESITE_FLOWING = new ResourceLocation(
-                        "modthatisnotamodfortweakingpurposes:block/fluids/molten_andesite_alloy_still");
+                        "modthatisnotamodfortweakingpurposes:block/fluids/molten_andesite_flow");
     public static final ResourceLocation ANDESITE_ALLOY_STILL = new ResourceLocation(
-                    "block/fluids/molten_andesite_alloy_still");
+                    "modthatisnotamodfortweakingpurposes:block/fluids/molten_andesite_alloy_still");
     public static final ResourceLocation ANDESITE_ALLOY_FLOWING = new ResourceLocation(
-                    "block/fluids/molten_andesite_alloy_flow");
+                    "modthatisnotamodfortweakingpurposes:block/fluids/molten_andesite_alloy_flow");
 
     public static final DeferredRegister<Fluid> FLUIDS = DeferredRegister.create(ForgeRegistries.FLUIDS,
             "modthatisnotamodfortweakingpurposes");
@@ -57,7 +57,7 @@ public class FluidsMod {
 
     public static final RegistryObject<LiquidBlock> MOLTEN_ANDESITE_ALLOY_BLOCK = blockMod.BLOCKS.register(
             "molten_andesite_alloy",
-            () -> new LiquidBlock(() -> FluidsMod.ANDESITE_FLUID.get(),
+            () -> new LiquidBlock(() -> FluidsMod.ANDESITE_ALLOY_FLUID.get(),
                     BlockBehaviour.Properties.of(Material.LAVA).noCollission().strength(100f).noDrops()));
 
     public static final ForgeFlowingFluid.Properties AndesiteAlloyProperties = new ForgeFlowingFluid.Properties(
