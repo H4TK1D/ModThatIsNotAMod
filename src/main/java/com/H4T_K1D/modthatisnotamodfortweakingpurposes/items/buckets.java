@@ -15,9 +15,10 @@ public class buckets {
 
     public static final RegistryObject<Item> MOLTEN_ANDESITE_BUCKET = ITEMS.register("molten_andesite_bucket",
             () -> new BucketItem(FluidsMod.ANDESITE_FLUID, new Item.Properties().stacksTo(1)));
-            public static final RegistryObject<Item> MOLTEN_ANDESITE_ALLOY_BUCKET = ITEMS.register("molten_andesite_alloy_bucket",
+    public static final RegistryObject<Item> MOLTEN_ANDESITE_ALLOY_BUCKET = ITEMS.register(
+            "molten_andesite_alloy_bucket",
             () -> new BucketItem(FluidsMod.ANDESITE_ALLOY_FLUID, new Item.Properties().stacksTo(1)));
-    
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
