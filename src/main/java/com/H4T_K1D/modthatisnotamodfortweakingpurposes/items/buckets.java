@@ -19,7 +19,6 @@ public class buckets {
             "molten_andesite_alloy_bucket",
             () -> new BucketItem(FluidsMod.ANDESITE_ALLOY_FLUID, new Item.Properties().stacksTo(1)));
 
-    // ok
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
